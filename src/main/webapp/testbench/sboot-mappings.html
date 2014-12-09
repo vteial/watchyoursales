@@ -1,0 +1,81 @@
+<html lang="en" x-ng-app="app" x-ng-csp>
+<head>
+<title>Spring Boot - Mappings</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" >
+<link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.min.css">
+
+<link href="style.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body x-ng-controller="rootController">
+<header class="container">
+	<h1><i>Spring Boot - Mappings</i></h1>
+</header>
+
+<section class="container">
+<pre>{{mappings | json}}</pre>
+<!-- 
+<div class="panel panel-default">
+<div class="panel-heading">
+	&nbsp;
+</div>
+<table class="table table-condensed table-hover table-striped table-bordered">
+<thead>
+	<tr>
+		<td width="30" class="text-right">#</td>
+		<td>Path</td>
+		<td>Bean &amp; Method</td>
+	</tr>
+</thead>
+<tbody>
+	<tr x-ng-repeat="(key, val) in mappings">
+		<td width="30" class="text-right">{{$index+1}}</td>
+		<td width="90">{{key}}</td>
+		<td>{{val.bean}} {{val.method | limitTo : 50}}</td>
+	</tr>
+</tbody>  
+</table>
+</div>
+-->
+
+</section>
+
+<script type="text/javascript"
+	src="../assets/lib/lodash.min.js"></script>
+<script type="text/javascript"
+	src="../assets/lib/underscore.string.min.js"></script>
+<script type="text/javascript" 
+	src="../assets/lib/moment.min.js"></script>
+<script type="text/javascript" 
+	src="../assets/lib/jquery.min.js"></script>
+<script type="text/javascript" 
+	src="../assets/lib/holder.js"></script>
+
+<script type="text/javascript"
+	src="../assets/angular/13x/angular.min.js"></script>
+<script type="text/javascript"
+	src="../assets/angular/13x/angular-route.min.js"></script>
+<script type="text/javascript"
+	src="../assets/angular/13x/angular-sanitize.min.js"></script>
+
+<script type="text/javascript" 
+	src="../assets/inputmask/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" 
+	src="../assets/inputmask/green.inputmask4angular.js"></script>
+
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="sboot-mappings.js"></script>
+	
+</body>
+</html>

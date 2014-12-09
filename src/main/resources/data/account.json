@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "capital",
+    "aliasName": "CAPITAL",
+    "type": "EQT",
+    "isMinus": "Y",
+    "balance": -100000,
+    "status": "A",
+    "branchId": 1,
+    "createTime": 1409288001000,
+    "updateTime": 1409288234043,
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "id": 2,
+    "name": "bvu-1-cash-in-hand",
+    "aliasName": "CASH IN HAND",
+    "type": "AST",
+    "isMinus": "N",
+    "balance": 0,
+    "status": "A",
+    "branchId": 1,
+    "createTime": 1409288001000,
+    "updateTime": 1409288287441,
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "id": 3,
+    "name": "bvu-1-profit",
+    "aliasName": "Profit",
+    "type": "AST",
+    "isMinus": "Y",
+    "balance": 0,
+    "status": "A",
+    "branchId": 1,
+    "createTime": 1409288001000,
+    "updateTime": 1409288234043,
+    "createBy": "system",
+    "updateBy": "system"
+  },
+  {
+    "id": 4,
+    "name": "customer-guest-cash-in-hand",
+    "aliasName": "Customer Guest",
+    "type": "CUS",
+    "isMinus": "N",
+    "balance": 0,
+    "status": "A",
+    "branchId": 1,
+    "createTime": 1409288001000,
+    "updateTime": 1409288287441,
+    "createBy": "system",
+    "updateBy": "system"
+  }
+ ]

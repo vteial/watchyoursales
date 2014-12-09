@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "AHA I TECH",
+        "landPhoneNo": "0123456789",
+        "handPhoneNo": "0123456789",
+        "faxNo": "0123456789",
+        "emailId": "contact@ahaitech.com",
+        "addressId": 1,
+        "status": "A",
+        "accountId": 1,
+        "parentId": 0,
+        "createTime": 1409288001000,
+        "updateTime": 1409288001000,
+        "createBy": "system",
+        "updateBy": "system"
+    }
+]

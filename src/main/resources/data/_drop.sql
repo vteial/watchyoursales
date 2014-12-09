@@ -1,0 +1,10 @@
+drop table users;
+drop table role;
+drop table customer;
+drop table employee;
+drop table branch;
+drop table accounts;
+drop table blob_data;
+drop table address;
+drop table country;
+drop table auto_number;

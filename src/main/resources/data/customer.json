@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "identityCardNumber": "0",
+    "firstName": "Guest",
+    "lastName": "Guest",
+    "aliasName": "Customer Guest",
+    "gender": "M",
+    "dob": "01-01-2001",
+    "addressId": 1,
+    "status": "A",
+    "accountId": 4,
+    "branchId": 1,
+    "createTime": 1409652827000,
+    "updateTime": 1409652827000,
+    "createBy": "system",
+    "updateBy": "system"
+  }
+]

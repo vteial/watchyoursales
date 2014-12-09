@@ -1,4 +1,2 @@
-watchyoursales
+Harmoney
 ==============
-
-A sales management application

@@ -1,0 +1,45 @@
+<div>&nbsp;</div>
+<div>
+	<div class="col-md-6">
+		<div class="panel panel-info">
+    	<div class="panel-heading">
+        	<h3 class="panel-title">AutoNumbers</h3>
+    	</div>
+		<table class="table table-condensed table-hover table-striped table-bordered">
+		<thead>
+			<tr>
+				<td width="30" class="text-right">#</td>
+				<td>Id</td>
+				<td>Value</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr x-ng-repeat="item in ans">
+				<td width="30" class="text-right">{{$index+1}}</td>
+				<td>{{item.id}}</td>
+				<td class="text-right">{{item.value | number}}</td>
+			</tr>
+		</tbody>  
+		</table>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div>
+			<label for="anId" class="control-label">AutoNumber Id</label>
+			<input class="form-control input-sm" type="text" 
+				x-ng-model="anId"
+				x-input-mask="'Regex'" mask-option="{ regex : '[A-Za-z]*'}">
+		</div>
+		<div>
+			<button class="btn btn-primary btn-block" 
+				x-ng-click="nextNumber()">Next Number</button>
+		</div>
+		<!-- 
+		<div>
+			<label class="control-label">Response</label>
+			<pre>{{ans | json}}</pre>
+		</div>
+		-->
+	</div>
+
+</div>

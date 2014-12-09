@@ -1,0 +1,72 @@
+<br/>
+<tabset type="pills">
+    <tab heading="Sessions">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshSessions()">
+				<i class="fa fa-refresh"></i>
+			</button>
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveSessions()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.sessions | json}}</pre>
+    </tab>
+    <tab heading="Metrics">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshMetrics()">
+				<i class="fa fa-refresh"></i>
+			</button>
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveInfo()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.metrics | json}}</pre>
+    </tab>
+    <tab heading="Dump">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshDump()">
+				<i class="fa fa-refresh"></i>
+			</button>
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveInfo()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.dump | json}}</pre>
+    </tab>
+    <tab heading="Trace">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshTrace()">
+				<i class="fa fa-refresh"></i>
+			</button>
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveInfo()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.trace | json}}</pre>
+    </tab>
+    <tab heading="Health">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshHealth()">
+				<i class="fa fa-refresh"></i>
+			</button>
+
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveInfo()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.health | json}}</pre>
+    </tab>
+	<tab heading="Info">
+		<div class="row">
+			<button class="btn btn-default btn-sm pull-left" x-ng-click="refreshInfo()">
+				<i class="fa fa-refresh"></i>
+			</button>
+			
+			<button class="btn btn-default btn-sm pull-right" x-ng-click="saveInfo()">
+				<i class="fa fa-save"></i>
+			</button>
+		</div>
+		<pre class="well">{{contents.info | json}}</pre>
+	</tab>
+</tabset>
+

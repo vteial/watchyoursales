@@ -1,0 +1,21 @@
+<div>&nbsp;</div>
+<div>
+	<div class="col-md-8">
+		<label for="message" class="control-label">Message</label>
+		<input class="form-control input-sm" type="text" 
+			x-ng-model="message">
+	</div>
+	<div class="col-md-4">
+		<button class="btn btn-primary btn-block" 
+			x-ng-click="announce()">Announce</button>
+	</div>
+</div>
+<div>&nbsp;</div>
+<div class="panel panel-info">
+    <div class="panel-heading">
+       	<h3 class="panel-title">Messages</h3>
+    </div>
+    <div class="panel-body">
+		<pre>{{announcement.message}}</pre>
+	</div>	
+</div>

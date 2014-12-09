@@ -1,0 +1,14 @@
+[
+    {
+    	"id": 1,
+        "address": "3rd Floor, Sunewang Plaza, Bukitbitang",
+        "cityOrTown": "KUALA LUMPUR",
+        "postalCode": "50250",
+        "stateCode": "KL",
+        "countryCode": "MY",
+        "createTime": 1409288001000,
+        "updateTime": 1409288001000,
+        "createBy": "system",
+        "updateBy": "system"
+    }
+]

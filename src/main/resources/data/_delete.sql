@@ -1,0 +1,10 @@
+drop from users;
+drop from role;
+drop from customer;
+drop from employee;
+drop from branch;
+drop from accounts;
+drop from blob_data;
+drop from address;
+drop from country;
+drop from auto_number;

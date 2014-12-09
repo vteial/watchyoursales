@@ -1,0 +1,19 @@
+[
+  {
+    "id": "bvu-1",
+    "password": "ahaitech4321",
+    "emailId": "bvu-1@127.0.0.1",
+    "firstName": "Virtual",
+    "lastName": "User",
+    "status": "A",
+    "roleId": "admin",
+    "employeeId" : 0,
+    "cashAccountId": 2,
+    "profitAccountId": 3,
+    "branchId": 1,
+    "createTime": 1409288001000,
+    "updateTime": 1409288001000,
+    "createBy": "system",
+    "updateBy": "system"
+  }
+]
